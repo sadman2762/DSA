@@ -193,7 +193,7 @@ answer:B
 
 
 
-*** 3rd variant(Red-Black and B-tree)
+*** 4th variant(Red-Black tree)
 -------------------------------------------------------------------------------------
 
 1.A red-black tree with n internal nodes has height at most
@@ -212,4 +212,198 @@ B.) contain the same number of red nodes.
 C.) contain different number of black nodes.
 D.) contain different number of red nodes.
 answer:A
+
+3. Find the FALSE property of the following description of red-black
+tree:
+1. Every node is either red or black.
+2. The root is black.
+3. Every leaf (NIL) is black.
+4. If a node is red, then both its children are black.
+5. For each node, all simple paths from the node to descendant
+leaves contain the same number of red nodes.
+
+answer:5
+
+4. Find the FALSE property of the following description of red-black
+tree:
+1. Every node is either red or black.
+2. The root is black.
+3. Every leaf (NIL) is black.
+4. If a node is black, then both its children are red.
+5. For each node, all simple paths from the node to descendant
+leaves contain the same number of black nodes.
+
+answer:4
+
+
+***5th variant (B-tree)
+----------------------------------------------------------------------------
+
+1.Nodes have lower and upper bounds on the number of keys they
+can contain. We express these bounds in terms of a fixed integer
+t≥2 called the minimum degree of the B-tree. Choose the correct
+B-tree property:
+
+A.) Every node other than the root must have at least 2*t−1 keys.
+B.) Every node other than the root may contain at most 2*t−1 keys.
+C.) Every node may contain at most 2*t−1 keys.
+D.) Every node must have at least 2*t−1 keys.
+
+answer:C
+
+2.The minimum value of degree of B-tree is
+A)0
+B)1
+C)2
+D)3
+
+answer:C
+
+3. Nodes have lower and upper bounds on the number of keys they
+can contain. We express these bounds in terms of a fixed integer
+t ≥ 2 called the minimum degree of the B-tree. Choose the correct
+B-tree property:
+A. Every node other than the root must have at least t − 1 keys.
+B. Every node may contain at most t − 1 keys.
+C. Every node other than the root may contain at most t−1 keys.
+D. Every node must have at least t − 1 keys.
+
+answer:A
+
+
+***6th variant(parallel algorithm):
+--------------------------------------------------------------------------------------
+
+1. We have four algorithms solving the same problem. First solution runs in
+polynomial time, second solution runs in exponential time, third solution runs in
+logarithmic time and the last solution runs in linear time. Which is the fastest?
+
+A.) polynomial
+B.) exponential
+C.) logarithmic
+D.) linear
+
+answer:C
+
+2.In the multithreaded matrix multiplication function P-SQUARE-MATRIX-MULTIPLY(A,B) function
+the first 5 rows are-
+1.n= A.rows
+2.let C be a new n*n Matrix
+3.parallel for i=1to n
+4.parallel for j=1 to n
+5.Cij = 0
+
+continue---
+A)6.for k = 1 to n
+7. Cij = aik . bkj
+8.return c
+
+B)6. for k = 1 to n
+7.Cij = Cij + aik . bkj
+8. return C
+
+C)6.parallel for k = 1 to n
+7. Cij = aik . bkj
+8.return c
+
+D)6.parallel for k = 1 to n
+7.Cij = Cij + aik . bkj
+8. return C
+
+answer:b
+
+3. In the LIST-DELETE(L,x) function the first 3 rows are:
+1. if x.prev != NIL
+2. x.prev.next =x.next
+3. else L.head=x.next
+continue...
+A)
+4. if x.next=NIL
+5. x.next.prev=x.prev
+B)
+4. if x.next!=NIL
+5. x.next.prev=x.prev
+C)
+4. if x.next=NIL
+5. x.next.prev=x.next
+D)
+4. if x.next!=NIL
+5. x.next.prev=x.next
+
+answer:B
+
+***7th variant (P,NP and NP complete)
+---------------------------------------------------------------------------------------
+
+1. A problem is NP complete if
+
+A.) it is in P and it is in NP.
+B.) it can be verified in polynomial time.
+C.) it is in NP and it can be verified in polynomial time.
+D.) it is in NP and it is NP-hard.
+
+answer:C
+
+2.A problem is NP-complete if
+A. it can be solved in polynomial time.
+B. it can be verified in polynomial time.
+C. it can be solved in polynomial time and there is a polynomial
+time reduction algorithm for each other problems, which can be solved
+in polynomial time.
+D. it can be verified in polynomial time and there is a polynomial time reduction algorithm
+for each other problems, which can be verified in polynomial time.
+
+answer:d
+
+3.A problem is NP if
+A. it can be solved in polynomial time.
+B. it can be verified in polynomial time.
+C. it can be solved in polynomial time and there is a polynomial
+time reduction algorithm for each other problems, which can be solved
+in polynomial time.
+D. it can be verified in polynomial time and there is a polynomial time reduction algorithm 
+for each other problems, which can be verified in polynomial time.
+
+answer:B
+
+4.A problem is P if
+A. it can be solved in polynomial time.
+B. it can be verified in polynomial time.
+C. it can be solved in polynomial time and there is a polynomial
+time reduction algorithm for each other problems, which can be solved
+in polynomial time.
+D. it can be verified in polynomial time and there is a polynomial time reduction algorithm 
+for each other problems, which can be verified in polynomial time.
+
+answer:a
+
+
+5.The radix sort(A,d) function is the following-
+
+A)1.for i 1 to d
+2. use a sort to sort Array A on digit i;
+
+B)1.for i 1 to d
+2. use a sort to sort Array A on digit d;
+
+C)1.for i 1 to d
+2. use a stable sort to sort Array A on digit i;
+
+D)1.for i 1 to d
+2. use a stable sort to sort Array A on digit d;
+
+answer:c
+
+
+
+
+
+
+
+
+
+
+
+
+
 
