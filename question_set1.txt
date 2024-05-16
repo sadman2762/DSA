@@ -1,4 +1,4 @@
-***1st variant:
+***1st variant:(Time complexity)
 ---------------------------------------------
 1.For a given function g(n), we denote by O(g(n)) the set of functions-
 A)O(g(n))={f(n): there exists positive constants c and n0 such that 
@@ -45,7 +45,7 @@ D)O(g(n))={f(n): there exists positive constants c and n0 such that
 
 Correct Answer: c
 
-***2nd variant:
+***2nd variant:(properties of data structures)
 -----------------------------------------------------------------------------------
 
 1. The 2 dimensional array(Matrix) is
@@ -139,7 +139,7 @@ D.) dynamic and associative data structure.
 answer:C
 
 
-***3rd variant:
+***3rd variant:(tree,table and linked lists)
 ------------------------------------------------------------------------------------
 
 1.For self ordering table we can use-
@@ -156,5 +156,60 @@ B)preorder and post order traversal
 C)inorder traversal
 D)None of them
 
-3.
+answer:A
+
+3.We can construct expression tree from -
+A)prefix,Infix and postfix expression
+B)prefix and postfix expression
+C)infix expression
+D)None of them
+answer:B
+
+4.The binary-search-tree property allows us to print out all the
+keys in a binary search tree in sorted order by a simple recursive
+algorithm, called
+A. preorder tree walk
+B. inorder tree walk
+C. postorder tree walk
+
+answer:B
+
+5. The average-case time of searching in a hash-table is
+A.) O(log n)
+B.) O(n)
+C.) O(n*n)
+D.) O(1)
+
+answer:D
+
+6. The average-case time of searching in a linked list is:
+A. O(log n)
+B. O(n)
+C. O(n2)
+D. O(1)
+
+answer:B
+
+
+
+
+*** 3rd variant(Red-Black and B-tree)
+-------------------------------------------------------------------------------------
+
+1.A red-black tree with n internal nodes has height at most
+A)log2(n)
+B)2∗log2(n)
+C)log2(n+1)
+D)2*log2(n+1)
+
+answer:d
+
+
+2.For each node of a red-black tree, all simple paths from the node to descendant leaves
+
+A.) contain the same number of black nodes.
+B.) contain the same number of red nodes.
+C.) contain different number of black nodes.
+D.) contain different number of red nodes.
+answer:A
 
