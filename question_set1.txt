@@ -1,0 +1,140 @@
+***1st variant:
+---------------------------------------------
+1.For a given function g(n), we denote by O(g(n)) the set of functions-
+A)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= g(n) <= c*f(n) for all n>= n0}
+
+B)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= g(n) <= c*f(n) for all n<= n0}
+
+C)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= f(n) <= c*g(n) for all n>= n0}
+
+D)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= f(n) <= c*g(n) for all n<= n0}
+
+Correct Answer: c
+
+2.For a given function g(n), we denote by Omega(g(n)) the set of functions-
+A)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c+g(n) <= f(n)  for all n>= n0}
+
+B)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c+g(n) <= f(n) for all n<= n0}
+
+C)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c*g(n) <= f(n) for all n>= n0}
+
+D)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c*g(n) <= f(n) for all n<= n0}
+
+Correct Answer: c
+
+3.For a given function g(n), we denote by Theta(g(n)) the set of functions-
+A)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c1+g(n) <= f(n) <= c2+g(n)  for all n>= n0}
+
+B)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c1+g(n) <= f(n) <= c2+g(n) for all n<= n0}
+
+C)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c1*g(n) <= f(n)<= c2*g(n) for all n>= n0}
+
+D)O(g(n))={f(n): there exists positive constants c and n0 such that 
+    0<= c1*g(n) <= f(n)<= c2*g(n) for all n<= n0}
+
+Correct Answer: c
+
+***2nd variant:
+-----------------------------------------------------------------------------------
+
+1. The 2 dimensional array(Matrix) is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:C
+
+2.The 1 dimensional array(vector) is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:c
+
+3.The stack is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:B
+
+4.The queue is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:b
+
+5.The linked list is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:B
+
+6.The table is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:D
+
+7.The tree is
+
+A.) dynamic and hiearchical data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:A
+
+8.The set is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and without structure data structure.
+
+answer:D
+
+9.The multi-set is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and without structure data structure.
+
+answer:D
+
+10.The sparce tree is
+
+A.) static and sequential data structure.
+B.) dynamic and sequential data structure.
+C.) static and associative data structure.
+D.) dynamic and associative data structure.
+
+answer:C
+
