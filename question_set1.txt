@@ -138,3 +138,23 @@ D.) dynamic and associative data structure.
 
 answer:C
 
+
+***3rd variant:
+------------------------------------------------------------------------------------
+
+1.For self ordering table we can use-
+A)linked representation and serial search
+B)linked representation and binary search
+C)continuous representation and serial search
+D)continuous representation and serial search
+
+answer:a
+
+2.We cannot construct original binary tree from-
+A)preorder,inorder and post order traversal
+B)preorder and post order traversal
+C)inorder traversal
+D)None of them
+
+3.
+
