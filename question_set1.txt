@@ -342,7 +342,7 @@ B.) it can be verified in polynomial time.
 C.) it is in NP and it can be verified in polynomial time.
 D.) it is in NP and it is NP-hard.
 
-answer:C
+answer:d
 
 2.A problem is NP-complete if
 A. it can be solved in polynomial time.
